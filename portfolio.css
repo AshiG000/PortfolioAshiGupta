@@ -1,0 +1,56 @@
+*{
+    padding: 0rem;
+    margin: 0rem;
+    font-family: 'Bebas Neue', cursive;
+}
+.navBar{
+    display:flex;
+    background-color:burlywood;
+    padding: 0.75rem;
+    font-size: 1.25rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.leftNavBar{
+    width: 25%;
+    display:flex;
+    justify-content: center;
+}
+.rightNavBar{
+    width: 70%;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.navBarElem{
+    margin:0rem 0.75rem;
+    color: black;
+}
+a:link,  a:visited, a:active{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.homeContent{
+    display: flex;
+    height: 100vh;
+    padding-top: 3.25rem;
+    box-sizing: border-box;
+}
+.homeContentLeft{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    background-color:silver;
+    
+    
+}
+.homeContentRight{
+    width: 70%;
+    text-align: center;
+    padding-top: 25vh;
+}
